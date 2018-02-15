@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Norican");
+@import url("https://fonts.googleapis.com/css?family=ABeeZee");
+.container { max-width: 1400px; width: 100%; margin: 0 auto; }
+
+.home { height: 700px; background: url(../images/background-image.png); background-size: 100% 100%; text-align: center; }
+
+.navbar {  max-width: 933px; margin: 0 auto; color: black; }
+
+.nav-links > ul { list-style-type: none; float: right; }
+
+.nav-links > ul > li { display: inline-block; margin-left: 20px; line-height: 80px; }
+
+.nav-links > ul > li > a { color: #ffffff; font-family: Montserrat; font-size: 14px; font-weight: bold; text-transform: uppercase; margin-left: 15px; text-decoration: none; transition: 0.5s; }
+
+.nav-links > ul > li > a:hover { color: #fed136; }
+
+#logo { color: #fed136; font-family: "Norican"; font-size: 26px; font-weight: 400; line-height: 41px; letter-spacing: 1.3px; }
+
+.home h3 { margin-top: 160px; color: #ffffff; font-family: "ABeeZee"; font-size: 40px; font-style: italic; letter-spacing: -1px; }
+
+.home h1 { color: #ffffff; font-family: Montserrat; font-size: 75px; font-weight: 700; text-transform: uppercase; letter-spacing: -1.88px; }
+
+.click { width: 240px; height: 65px; border: 1px solid #fed136; border-radius: 5px; margin: 0 auto; margin-top: 50px; transition: 0.5s; }
+
+.click a { color: #fed136; font-family: Montserrat; font-size: 18px; font-weight: 700; text-transform: uppercase; line-height: 65px; text-decoration: none; transition: 0.5s; }
+
+.click:hover { background-color: #fed136; }
+
+.click:hover a { color: #ffffff; }
+
+
+
+.service-text { margin: 0 auto; margin-top: 100px; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.service-text h3 { font-family: "Montserrat"; font-weight: bold; text-transform: uppercase; font-size: 50px; }
+
+.service-text p { font-family: "Montserrat"; font-weight: bold; font-size: 20px; font-style: italic; color: grey; }
+
+.icons-services { margin-bottom: 150px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 100px; }
+
+.icons-flex { width: 300px; margin: 10px; text-align: center; }
+
+.icons-flex h3 { font-weight: bold; }
+
+.icons-flex p { color: grey; padding: 15px; }
+
+.icons-flex i { color: #fed136; font-size: 50px; border: 4px solid #fed136; border-radius: 50px; padding: 8px; cursor: pointer; transition: 0.5s; }
+
+.icons-flex i:hover { -webkit-transform: scale(1.4); transform: scale(1.4); }
+
+.portfolio { background-color: #f2f2f2; }
+
+.portfolio-text { margin: 0 auto; padding-top: 50px; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.portfolio-text h3 { font-family: "Montserrat"; font-weight: bold; text-transform: uppercase; font-size: 50px; }
+
+.portfolio-text p { font-family: "Montserrat"; font-weight: bold; font-size: 20px; font-style: italic; color: grey; }
+
+.portfolio1-flex, .portfolio2-flex { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 50px; }
+
+.portfolio2-flex { padding-bottom: 100px; }
+
+.portfolio-gallery { width: 300px; height: 400px; margin: 10px; text-align: center; background-color: white; transition: 0.8s; }
+
+.portfolio-gallery img { max-width: 300px; height: 300px; width: 100%; cursor: pointer; }
+
+.portfolio-gallery:hover { -webkit-transform: scale(1.1); transform: scale(1.1); }
+
+.portfolio-gallery h3 { font-weight: bold; }
+
+.portfolio-gallery p { color: grey; font-style: italic; }
+
+.team { background-color: #f2f2f2; margin-top: 150px; padding-bottom: 100px; }
+
+.team-text { margin: 0 auto; padding-top: 50px; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.team-text h3 { font-family: "Montserrat"; font-weight: bold; text-transform: uppercase; font-size: 50px; }
+
+.team-text p { font-family: "Montserrat"; font-weight: bold; font-size: 20px; font-style: italic; color: grey; }
+
+.team-gallery { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 50px; }
+
+.team-flex { width: 300px; margin: 10px; text-align: center; }
+
+.team-flex h3 { font-weight: bold; }
+
+.team-flex p { color: grey; }
+
+[class^=team-photo] { height: 280px; width: 280px; border-radius: 150px; border: 10px solid white; margin: 0 auto; text-align: center; }
+
+.team-photo1 { background: url(https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb); background-position: center; background-size: 115%; }
+
+.team-photo2 { background: url(https://images.pexels.com/photos/547593/pexels-photo-547593.jpeg?h=350&auto=compress&cs=tinysrgb); background-position: center; background-size: 100%; }
+
+.team-photo3 { background: url(https://images.pexels.com/photos/372042/pexels-photo-372042.jpeg?w=940&h=650&auto=compress&cs=tinysrgb); background-position: center; background-size: 150%; }
+
+.team-flex button { border: 4px solid black; display: inline; font-size: 25px; padding: 0px; border-radius: 30px; width: 50px; height: 50px; background-color: #f2f2f2; margin: 5px; cursor: pointer; transition: 0.3s; }
+
+#twitter:hover { background-color: #1dcaff; }
+
+#facebook:hover { background-color: #3b5998; }
+
+#pinterest:hover { background-color: #C92228; }
+
+#google:hover { background-color: #d34836; }
+
+.team-flex button:hover { color: white; border: 0; }
+
+.team-text2 { margin: 0 auto; width: 800px; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.team-text2 p { font-family: "Montserrat"; font-weight: bold; font-size: 20px; color: grey; padding: 50px; }
+
+.logos { padding-bottom: 50px; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 50px; }
+
+.logos img { max-height: 60px; margin: 20px; -webkit-filter: grayscale(100%); filter: grayscale(100%); }
+
+.logos img:hover { -webkit-filter: none; filter: none; cursor: pointer; }
+
+.contact { background-color: black; background-image: url(http://www.freedesign4.me/wp-content/uploads/2015/03/free-dotted-world-map-vector.png); background-repeat: no-repeat; background-position: center; background-size: 100% 100%; text-align: center; padding-bottom: 100px; }
+
+.contact form { margin-top: 70px; }
+
+.contact-text { margin: 0 auto; padding-top: 50px; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.contact-text h3 { font-family: "Montserrat"; font-weight: bold; text-transform: uppercase; font-size: 50px; color: white; }
+
+.contact-text p { font-family: "Montserrat"; font-weight: bold; font-size: 20px; font-style: italic; color: white; }
+
+.footer { margin: 0 auto; text-align: center; }
+
+.row { text-align: center; }
+
+.footer button { border: none; display: inline; font-size: 20px; padding: 0px; border-radius: 30px; width: 40px; height: 40px; background-color: black; color: white; margin: 5px; margin-top: 20px; margin-bottom: 30px; cursor: pointer; transition: 0.3s; }
+
+.footer p { padding-top: 30px; font-family: "Montserrat"; }
+
+.history-text { margin: 0 auto; margin-bottom: 100px; margin-top: 50px; padding-top: 50px; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.history-text h3 { font-family: "Montserrat"; font-weight: bold; text-transform: uppercase; font-size: 50px; color: black; }
+
+.history-text p { font-family: "Montserrat"; font-weight: bold; font-size: 20px; font-style: italic; color: grey; }
+
+.history { max-width: 900px; margin: 0 auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.history-text-right { text-align: right; width: 300px; }
+
+.history-text-left { text-align: left; width: 300px; }
+
+.history-text-left h3, .history-text-right h3 { font-family: "Montserrat"; font-weight: bold; font-size: 20px; margin: 5px; }
+
+.history-text-left p, .history-text-right p { font-family: "Montserrat"; font-size: 15px; color: grey; margin-top: 10px; }
+
+.fotos { width: 300px; }
+
+[class^=foto-] { width: 250px; height: 250px; margin: 0 auto; border: 8px solid #f2f2f2; border-radius: 50%; }
+
+.foto-1 { background-image: url(https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?h=350&auto=compress&cs=tinysrgb); background-position: center; background-size: 150%; }
+
+.foto-2 { background-image: url(https://images.pexels.com/photos/785064/pexels-photo-785064.jpeg?h=350&auto=compress&cs=tinysrgb); background-position: center; background-size: 150%; }
+
+.foto-3 { background-image: url(https://images.pexels.com/photos/696680/pexels-photo-696680.jpeg?h=350&auto=compress&cs=tinysrgb); background-position: center; background-size: 150%; }
+
+.foto-4 { background-image: url(https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?h=350&auto=compress&cs=tinysrgb); background-position: center; background-size: 150%; }
+
+.empty { width: 300px; content: ""; }
+
+.continue { width: 250px; height: 250px; margin: 0 auto; border: 8px solid #f2f2f2; border-radius: 50%; text-align: center; color: #fed136; font-weight: bold; text-transform: uppercase; font-size: 20px; transition: 0.5s; cursor: pointer; }
+
+.continue p { padding-top: 70px; }
+
+.continue:hover { background-color: #fed136; color: white; }
+
+.line { content: ""; background-color: #f2f2f2; margin: 0 auto; width: 3px; height: 100px; }
+
+.empty-column {
+	content: "";
+}
+
+
+
+@media (max-width: 1000px) { 
+	
+	.empty { display: none; }
+  .line { display: none; }
+  .history { margin-top: 100px; } 
+  .navbar {max-width: 650px;}
+ 
+}
+
+
+@media (min-width: 769px) {
+	nav button {
+		display: none;
+	}
+	.empty-column {display: none;}
+}
+
+@media (max-width: 768px) {
+	nav button {}
+.navbar-wide {display: none;}
+.nav-links {margin: 0 auto; max-width: 300px;}
+.nav-links > ul {float: none; list-style-type: none; }
+.nav-links > ul > li {display: block; text-align: center; line-height: 5px; padding: 0px; margin: 10px;}
+.nav-links > ul > li > a {margin: 0; padding: 0; color: #fed136; font-size: 20px;}
+.home { height: 450px;}
+.home h1 { font-size: 35px; margin-top: 0px;}
+.home h3 {font-size: 20px; margin-top: 10px;}
+.click { width: 120px; height: 50px; margin-top: 5px; background-color: #fed136; margin-bottom: 5px;}
+
+.click a { font-size: 14px; line-height: 50px; color: #ffffff; }
+
+
+.empty { display: none; }
+  .history-text-right, .history-text-left { text-align: center; } 
+
+.service-text h3 {font-size: 40px;}
+
+.icons-flex i:hover { transform: scale(1.0); }
+.portfolio-text h3 {font-size: 35px;}
+.portfolio-gallery:hover {transform: scale(1.0);}
+.continue { background-color: #fed136; ; color: white;}
+.team-text h3 {font-size: 40px;}
+.team-flex button {color: white; border: 0;}
+
+#twitter { background-color: #1dcaff; }
+
+#facebook { background-color: #3b5998; }
+
+#pinterest { background-color: #C92228; }
+
+#google { background-color: #d34836; }
+
+.team-text2 {width: auto; }
+.team-text2 p {font-size: 15px;}
+
+.logos img {filter: none;}
+.contact-text h3 {font-size: 40px;}
+.portfolio-gallery { height: 350px;}
+.portfolio-gallery img { height: 250px;}
+.form-1, .form-2 {margin-right: 30px; margin-left: 30px; }
+}
